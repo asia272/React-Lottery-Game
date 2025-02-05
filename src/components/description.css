@@ -6,11 +6,13 @@
     max-width: 400px;
     margin: 20px auto;
     text-align: center;
+    transition: all 0.3s ease;
+    box-shadow:  4px 3px 39px rgb(23, 141, 121);
   }
   
   .description-container h2 {
-    color: #333;
-    margin-bottom: 10px;
+    color: rgb(23, 141, 121);
+    margin-bottom: 8px;
   }
   
   .description-container p {
@@ -18,4 +20,8 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+.description-container:hover{
+  transform: scale(1.1);
+
+}
   

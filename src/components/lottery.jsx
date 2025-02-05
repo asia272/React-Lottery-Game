@@ -22,9 +22,10 @@ export default function Lottrey({n, winCondion}){
     <Ticket ticket = {ticket}/>
     <br />
     <Button
+    style={{backgroundColor:"rgb(4, 94, 56)"}}
      variant="contained" 
     onClick={genNewTicket}>
-       genrate Ticket
+       Play
      </Button>
 
     <br />
